@@ -10,15 +10,15 @@ Substitutions: 1 if both vowels or both consonants, 2 otherwise.
 
 ## Usage
 
-'''
+```
 editDistance("StringA","stringB")
-'''
+```
 
 ## Examples
 
-'''
+```
 editDistance("glasses","grass")
-'''
+```
 
 returns 4. 
 
