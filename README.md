@@ -14,13 +14,20 @@ Substitutions: 1 if both vowels or both consonants, 2 otherwise.
 editDistance("StringA","stringB")
 ```
 
+to calculate edit distance between StringA and StringB. 
+
 ## Examples
 
 ```
-editDistance("glasses","grass")
+editDistance("glasses","Grass")
 ```
 
-returns 4. 
+returns 4. The shortest possible edit distance between the two strings is to modify "Grass" in the following manner:
+
+1. Replacing G with g (cost of 1)
+2. Replacing l with r (cost of 1)
+3. Adding e. (cost of 1)
+4. Adding s. (cost of 1)
 
 ## Built with
 
